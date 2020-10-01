@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/iliadColor"
+    tools:context=".LoadingActivity">
+
+    <app.frantic.loadingdots.LoadingDots
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="32dp"
+
+        app:LoadingDots_auto_play="true"
+        app:LoadingDots_dots_color="@android:color/white"
+        app:LoadingDots_dots_count="4"
+        app:LoadingDots_dots_size="10dp"
+        app:LoadingDots_dots_space="4dp"
+        app:LoadingDots_jump_duration="400"
+        app:LoadingDots_jump_height="10dp"
+        app:LoadingDots_loop_duration="2000"
+        app:LoadingDots_loop_start_delay="70"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="291dp"
+        android:layout_height="287dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_text"
+        tools:ignore="VectorDrawableCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

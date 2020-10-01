@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eb4034</color>
+    <color name="colorPrimaryDark">#eb4034</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="iliadColor">#eb4034</color>
+    <color name="textGrey">#717171</color>
+    <color name="textDarkGrey">#595959</color>
+</resources>

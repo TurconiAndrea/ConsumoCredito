@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ConsumoCredito</string>
+
+    <string name="credit_residual">CREDITO RESIDUO</string>
+    <string name="next_renewal">PROSSIMO RINNOVO</string>
+    <string name="placeholder">-</string>
+    <string name="login_text">Inserisci le credenziali di Iliad</string>
+    <string name="login">Accedi</string>
+    <string name="setting">Impostazioni</string>
+    <string name="remove_info">Rimuovi i dati personali</string>
+    <string name="help">Aiuto e istruzioni</string>
+    <string name="policy_privacy">Privacy Policy - Terms of Service</string>
+    <string name="delete_info">Sei sicuro di voler rimuovere l\'accesso?</string>
+    <string name="no">No</string>
+    <string name="yes">Si</string>
+
+</resources>
