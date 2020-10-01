@@ -17,8 +17,11 @@ L'app permette la connessione al sito di Iliad attraverso API create ad hoc. Le 
 * Visualizzazione FAQ di Iliad
 
 ### Sviluppo
-L'applicazione è sviluppata utilizzando: 
+L'applicazione Android è sviluppata utilizzando: 
 * Kotlin
+
+L'applicazione IOS è sviluppata utilizzando: 
+* Swift
 
 Le API sono state sviluppate utilizzando: 
 * Python Flask
