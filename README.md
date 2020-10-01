@@ -1,6 +1,6 @@
 # ConsumoCredito
 
-App Android e Ios **non ufficiale** per il controllo dei consumi di Iliad.
+App Android e IOS **non ufficiale** per il controllo dei consumi di Iliad.
 L'applicazione permette il login al sito ufficiale di Iliad con i dati dell'utente, utilizzando delle API create ad hoc che ne permettono la connessione.
 
 ![Wallpaper](/images/wallpaper.png)
