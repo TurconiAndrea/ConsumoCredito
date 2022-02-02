@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52EFB909392347D76E3B88E9 /* Pods_ConsumoCreditoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E13735AE29659718CB1186 /* Pods_ConsumoCreditoTests.framework */; };
+		6E0E3B7125247F5B00276CC9 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E3B7025247F5B00276CC9 /* UIButtonExtension.swift */; };
+		6E0E3B812524850F00276CC9 /* EncryptionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E3B802524850F00276CC9 /* EncryptionTool.swift */; };
+		6E0E3B862524A4C600276CC9 /* UserTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E3B852524A4C600276CC9 /* UserTool.swift */; };
+		6E180865252222AB00EAE907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E180864252222AB00EAE907 /* AppDelegate.swift */; };
+		6E180867252222AB00EAE907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E180866252222AB00EAE907 /* SceneDelegate.swift */; };
+		6E180869252222AB00EAE907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E180868252222AB00EAE907 /* ViewController.swift */; };
+		6E18086C252222AB00EAE907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E18086A252222AB00EAE907 /* Main.storyboard */; };
+		6E18086E252222AD00EAE907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E18086D252222AD00EAE907 /* Assets.xcassets */; };
+		6E180871252222AD00EAE907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E18086F252222AD00EAE907 /* LaunchScreen.storyboard */; };
+		6E18087C252222AE00EAE907 /* ConsumoCreditoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18087B252222AE00EAE907 /* ConsumoCreditoTests.swift */; };
+		6E180887252222AE00EAE907 /* ConsumoCreditoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E180886252222AE00EAE907 /* ConsumoCreditoUITests.swift */; };
+		6E20FCB5252388D3002F968F /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20FCB4252388D3002F968F /* Month.swift */; };
+		6E20FCBA25239891002F968F /* SavedInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20FCB925239891002F968F /* SavedInformation.swift */; };
+		6E20FCBF25239D0D002F968F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20FCBE25239D0D002F968F /* LoginViewController.swift */; };
+		6E20FCC42523A79C002F968F /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20FCC32523A79C002F968F /* Utility.swift */; };
+		6E220CC125288B0C0009122A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E220CC025288B0C0009122A /* SettingsViewController.swift */; };
+		6E7CE76725222CD300764F1E /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7CE76625222CD300764F1E /* HomePageViewController.swift */; };
+		6ECB9B922523247D00F59E15 /* IliadRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB9B912523247D00F59E15 /* IliadRoute.swift */; };
+		6ECB9B9A2523284A00F59E15 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB9B992523284A00F59E15 /* User.swift */; };
+		6ECB9BAB25233D1700F59E15 /* IliadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB9BAA25233D1700F59E15 /* IliadRequest.swift */; };
+		7168E5A1DDEA282341C7FECF /* Pods_ConsumoCredito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FC6C9B90220CE63F5BEE3B /* Pods_ConsumoCredito.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		BE251C5DA01AC5A7D01BB0E9 /* Pods_ConsumoCredito_ConsumoCreditoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686E7C3558C07B627AA35378 /* Pods_ConsumoCredito_ConsumoCreditoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E180878252222AE00EAE907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E180859252222AB00EAE907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E180860252222AB00EAE907;
+			remoteInfo = ConsumoCredito;
+		};
+		6E180883252222AE00EAE907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E180859252222AB00EAE907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E180860252222AB00EAE907;
+			remoteInfo = ConsumoCredito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F249D9EB9DB1A7E23D483B0 /* Pods-ConsumoCredito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsumoCredito.debug.xcconfig"; path = "Target Support Files/Pods-ConsumoCredito/Pods-ConsumoCredito.debug.xcconfig"; sourceTree = "<group>"; };
+		37FC6C9B90220CE63F5BEE3B /* Pods_ConsumoCredito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsumoCredito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384B86C085856E67A9851611 /* Pods-ConsumoCreditoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsumoCreditoTests.release.xcconfig"; path = "Target Support Files/Pods-ConsumoCreditoTests/Pods-ConsumoCreditoTests.release.xcconfig"; sourceTree = "<group>"; };
+		56C60ED2D6B6A3C7D38203F2 /* Pods-ConsumoCredito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsumoCredito.release.xcconfig"; path = "Target Support Files/Pods-ConsumoCredito/Pods-ConsumoCredito.release.xcconfig"; sourceTree = "<group>"; };
+		686E7C3558C07B627AA35378 /* Pods_ConsumoCredito_ConsumoCreditoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsumoCredito_ConsumoCreditoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAE00CEBF9E4E5DE683C399 /* Pods-ConsumoCredito-ConsumoCreditoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsumoCredito-ConsumoCreditoUITests.release.xcconfig"; path = "Target Support Files/Pods-ConsumoCredito-ConsumoCreditoUITests/Pods-ConsumoCredito-ConsumoCreditoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E0E3B7025247F5B00276CC9 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		6E0E3B802524850F00276CC9 /* EncryptionTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionTool.swift; sourceTree = "<group>"; };
+		6E0E3B852524A4C600276CC9 /* UserTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTool.swift; sourceTree = "<group>"; };
+		6E180861252222AB00EAE907 /* ConsumoCredito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsumoCredito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E180864252222AB00EAE907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E180866252222AB00EAE907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E180868252222AB00EAE907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E18086B252222AB00EAE907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E18086D252222AD00EAE907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E180870252222AD00EAE907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E180872252222AD00EAE907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E180877252222AE00EAE907 /* ConsumoCreditoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsumoCreditoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E18087B252222AE00EAE907 /* ConsumoCreditoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumoCreditoTests.swift; sourceTree = "<group>"; };
+		6E18087D252222AE00EAE907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E180882252222AE00EAE907 /* ConsumoCreditoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsumoCreditoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E180886252222AE00EAE907 /* ConsumoCreditoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumoCreditoUITests.swift; sourceTree = "<group>"; };
+		6E180888252222AE00EAE907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E20FCB4252388D3002F968F /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		6E20FCB925239891002F968F /* SavedInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedInformation.swift; sourceTree = "<group>"; };
+		6E20FCBE25239D0D002F968F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6E20FCC32523A79C002F968F /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		6E220CC025288B0C0009122A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6E7CE76625222CD300764F1E /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		6ECB9B912523247D00F59E15 /* IliadRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IliadRoute.swift; sourceTree = "<group>"; };
+		6ECB9B992523284A00F59E15 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6ECB9BAA25233D1700F59E15 /* IliadRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IliadRequest.swift; sourceTree = "<group>"; };
+		74E13735AE29659718CB1186 /* Pods_ConsumoCreditoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsumoCreditoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC256896F2D8D6FE69DEF3EA /* Pods-ConsumoCreditoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsumoCreditoTests.debug.xcconfig"; path = "Target Support Files/Pods-ConsumoCreditoTests/Pods-ConsumoCreditoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0959AE02C0F0935870D2138 /* Pods-ConsumoCredito-ConsumoCreditoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsumoCredito-ConsumoCreditoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ConsumoCredito-ConsumoCreditoUITests/Pods-ConsumoCredito-ConsumoCreditoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E18085E252222AB00EAE907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7168E5A1DDEA282341C7FECF /* Pods_ConsumoCredito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E180874252222AE00EAE907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFB909392347D76E3B88E9 /* Pods_ConsumoCreditoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18087F252222AE00EAE907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE251C5DA01AC5A7D01BB0E9 /* Pods_ConsumoCredito_ConsumoCreditoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F365BB0540049BAB2591AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F249D9EB9DB1A7E23D483B0 /* Pods-ConsumoCredito.debug.xcconfig */,
+				56C60ED2D6B6A3C7D38203F2 /* Pods-ConsumoCredito.release.xcconfig */,
+				B0959AE02C0F0935870D2138 /* Pods-ConsumoCredito-ConsumoCreditoUITests.debug.xcconfig */,
+				6AAE00CEBF9E4E5DE683C399 /* Pods-ConsumoCredito-ConsumoCreditoUITests.release.xcconfig */,
+				AC256896F2D8D6FE69DEF3EA /* Pods-ConsumoCreditoTests.debug.xcconfig */,
+				384B86C085856E67A9851611 /* Pods-ConsumoCreditoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E180858252222AB00EAE907 = {
+			isa = PBXGroup;
+			children = (
+				6E180863252222AB00EAE907 /* ConsumoCredito */,
+				6E18087A252222AE00EAE907 /* ConsumoCreditoTests */,
+				6E180885252222AE00EAE907 /* ConsumoCreditoUITests */,
+				6E180862252222AB00EAE907 /* Products */,
+				67F365BB0540049BAB2591AF /* Pods */,
+				FE7CB74A0771450DF9B5C1BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E180862252222AB00EAE907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E180861252222AB00EAE907 /* ConsumoCredito.app */,
+				6E180877252222AE00EAE907 /* ConsumoCreditoTests.xctest */,
+				6E180882252222AE00EAE907 /* ConsumoCreditoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E180863252222AB00EAE907 /* ConsumoCredito */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB9B902523246200F59E15 /* Utility */,
+				6E7CE75A2522263300764F1E /* Storyboard */,
+				6E7CE7592522261900764F1E /* ViewController */,
+				6E180864252222AB00EAE907 /* AppDelegate.swift */,
+				6E180866252222AB00EAE907 /* SceneDelegate.swift */,
+				6E18086D252222AD00EAE907 /* Assets.xcassets */,
+				6E180872252222AD00EAE907 /* Info.plist */,
+			);
+			path = ConsumoCredito;
+			sourceTree = "<group>";
+		};
+		6E18087A252222AE00EAE907 /* ConsumoCreditoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E18087B252222AE00EAE907 /* ConsumoCreditoTests.swift */,
+				6E18087D252222AE00EAE907 /* Info.plist */,
+			);
+			path = ConsumoCreditoTests;
+			sourceTree = "<group>";
+		};
+		6E180885252222AE00EAE907 /* ConsumoCreditoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E180886252222AE00EAE907 /* ConsumoCreditoUITests.swift */,
+				6E180888252222AE00EAE907 /* Info.plist */,
+			);
+			path = ConsumoCreditoUITests;
+			sourceTree = "<group>";
+		};
+		6E7CE7592522261900764F1E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6E180868252222AB00EAE907 /* ViewController.swift */,
+				6E7CE76625222CD300764F1E /* HomePageViewController.swift */,
+				6E20FCBE25239D0D002F968F /* LoginViewController.swift */,
+				6E220CC025288B0C0009122A /* SettingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6E7CE75A2522263300764F1E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6E18086F252222AD00EAE907 /* LaunchScreen.storyboard */,
+				6E18086A252222AB00EAE907 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6ECB9B902523246200F59E15 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB9B912523247D00F59E15 /* IliadRoute.swift */,
+				6ECB9B992523284A00F59E15 /* User.swift */,
+				6ECB9BAA25233D1700F59E15 /* IliadRequest.swift */,
+				6E20FCB4252388D3002F968F /* Month.swift */,
+				6E20FCB925239891002F968F /* SavedInformation.swift */,
+				6E20FCC32523A79C002F968F /* Utility.swift */,
+				6E0E3B7025247F5B00276CC9 /* UIButtonExtension.swift */,
+				6E0E3B802524850F00276CC9 /* EncryptionTool.swift */,
+				6E0E3B852524A4C600276CC9 /* UserTool.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FE7CB74A0771450DF9B5C1BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37FC6C9B90220CE63F5BEE3B /* Pods_ConsumoCredito.framework */,
+				686E7C3558C07B627AA35378 /* Pods_ConsumoCredito_ConsumoCreditoUITests.framework */,
+				74E13735AE29659718CB1186 /* Pods_ConsumoCreditoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E180860252222AB00EAE907 /* ConsumoCredito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E18088B252222AE00EAE907 /* Build configuration list for PBXNativeTarget "ConsumoCredito" */;
+			buildPhases = (
+				DAB34935E3ABD0EBA08C2047 /* [CP] Check Pods Manifest.lock */,
+				6E18085D252222AB00EAE907 /* Sources */,
+				6E18085E252222AB00EAE907 /* Frameworks */,
+				6E18085F252222AB00EAE907 /* Resources */,
+				0C51DA0F086D1D15B5DAACF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsumoCredito;
+			productName = ConsumoCredito;
+			productReference = 6E180861252222AB00EAE907 /* ConsumoCredito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E180876252222AE00EAE907 /* ConsumoCreditoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E18088E252222AE00EAE907 /* Build configuration list for PBXNativeTarget "ConsumoCreditoTests" */;
+			buildPhases = (
+				D48D7B574090401DAF7675C3 /* [CP] Check Pods Manifest.lock */,
+				6E180873252222AE00EAE907 /* Sources */,
+				6E180874252222AE00EAE907 /* Frameworks */,
+				6E180875252222AE00EAE907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E180879252222AE00EAE907 /* PBXTargetDependency */,
+			);
+			name = ConsumoCreditoTests;
+			productName = ConsumoCreditoTests;
+			productReference = 6E180877252222AE00EAE907 /* ConsumoCreditoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E180881252222AE00EAE907 /* ConsumoCreditoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E180891252222AE00EAE907 /* Build configuration list for PBXNativeTarget "ConsumoCreditoUITests" */;
+			buildPhases = (
+				4479B2F77AC191BAFF8E1387 /* [CP] Check Pods Manifest.lock */,
+				6E18087E252222AE00EAE907 /* Sources */,
+				6E18087F252222AE00EAE907 /* Frameworks */,
+				6E180880252222AE00EAE907 /* Resources */,
+				4AC79AD539C79D466509D7EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E180884252222AE00EAE907 /* PBXTargetDependency */,
+			);
+			name = ConsumoCreditoUITests;
+			productName = ConsumoCreditoUITests;
+			productReference = 6E180882252222AE00EAE907 /* ConsumoCreditoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E180859252222AB00EAE907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6E180860252222AB00EAE907 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6E180876252222AE00EAE907 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6E180860252222AB00EAE907;
+					};
+					6E180881252222AE00EAE907 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6E180860252222AB00EAE907;
+					};
+				};
+			};
+			buildConfigurationList = 6E18085C252222AB00EAE907 /* Build configuration list for PBXProject "ConsumoCredito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E180858252222AB00EAE907;
+			productRefGroup = 6E180862252222AB00EAE907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E180860252222AB00EAE907 /* ConsumoCredito */,
+				6E180876252222AE00EAE907 /* ConsumoCreditoTests */,
+				6E180881252222AE00EAE907 /* ConsumoCreditoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E18085F252222AB00EAE907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E180871252222AD00EAE907 /* LaunchScreen.storyboard in Resources */,
+				6E18086E252222AD00EAE907 /* Assets.xcassets in Resources */,
+				6E18086C252222AB00EAE907 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E180875252222AE00EAE907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E180880252222AE00EAE907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C51DA0F086D1D15B5DAACF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConsumoCredito/Pods-ConsumoCredito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConsumoCredito/Pods-ConsumoCredito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConsumoCredito/Pods-ConsumoCredito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4479B2F77AC191BAFF8E1387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConsumoCredito-ConsumoCreditoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC79AD539C79D466509D7EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConsumoCredito-ConsumoCreditoUITests/Pods-ConsumoCredito-ConsumoCreditoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConsumoCredito-ConsumoCreditoUITests/Pods-ConsumoCredito-ConsumoCreditoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConsumoCredito-ConsumoCreditoUITests/Pods-ConsumoCredito-ConsumoCreditoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48D7B574090401DAF7675C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConsumoCreditoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB34935E3ABD0EBA08C2047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConsumoCredito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E18085D252222AB00EAE907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7CE76725222CD300764F1E /* HomePageViewController.swift in Sources */,
+				6E180869252222AB00EAE907 /* ViewController.swift in Sources */,
+				6E0E3B812524850F00276CC9 /* EncryptionTool.swift in Sources */,
+				6ECB9B9A2523284A00F59E15 /* User.swift in Sources */,
+				6E20FCC42523A79C002F968F /* Utility.swift in Sources */,
+				6ECB9B922523247D00F59E15 /* IliadRoute.swift in Sources */,
+				6E0E3B7125247F5B00276CC9 /* UIButtonExtension.swift in Sources */,
+				6E20FCB5252388D3002F968F /* Month.swift in Sources */,
+				6E220CC125288B0C0009122A /* SettingsViewController.swift in Sources */,
+				6E0E3B862524A4C600276CC9 /* UserTool.swift in Sources */,
+				6E180865252222AB00EAE907 /* AppDelegate.swift in Sources */,
+				6E20FCBA25239891002F968F /* SavedInformation.swift in Sources */,
+				6E180867252222AB00EAE907 /* SceneDelegate.swift in Sources */,
+				6E20FCBF25239D0D002F968F /* LoginViewController.swift in Sources */,
+				6ECB9BAB25233D1700F59E15 /* IliadRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E180873252222AE00EAE907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E18087C252222AE00EAE907 /* ConsumoCreditoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E18087E252222AE00EAE907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E180887252222AE00EAE907 /* ConsumoCreditoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E180879252222AE00EAE907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E180860252222AB00EAE907 /* ConsumoCredito */;
+			targetProxy = 6E180878252222AE00EAE907 /* PBXContainerItemProxy */;
+		};
+		6E180884252222AE00EAE907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E180860252222AB00EAE907 /* ConsumoCredito */;
+			targetProxy = 6E180883252222AE00EAE907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E18086A252222AB00EAE907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E18086B252222AB00EAE907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E18086F252222AD00EAE907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E180870252222AD00EAE907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E180889252222AE00EAE907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E18088A252222AE00EAE907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E18088C252222AE00EAE907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F249D9EB9DB1A7E23D483B0 /* Pods-ConsumoCredito.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9M4DPRUS2;
+				INFOPLIST_FILE = ConsumoCredito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = buzzo.ConsumoCredito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E18088D252222AE00EAE907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C60ED2D6B6A3C7D38203F2 /* Pods-ConsumoCredito.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9M4DPRUS2;
+				INFOPLIST_FILE = ConsumoCredito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = buzzo.ConsumoCredito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E18088F252222AE00EAE907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC256896F2D8D6FE69DEF3EA /* Pods-ConsumoCreditoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9M4DPRUS2;
+				INFOPLIST_FILE = ConsumoCreditoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = buzzo.ConsumoCreditoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsumoCredito.app/ConsumoCredito";
+			};
+			name = Debug;
+		};
+		6E180890252222AE00EAE907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384B86C085856E67A9851611 /* Pods-ConsumoCreditoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9M4DPRUS2;
+				INFOPLIST_FILE = ConsumoCreditoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = buzzo.ConsumoCreditoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsumoCredito.app/ConsumoCredito";
+			};
+			name = Release;
+		};
+		6E180892252222AE00EAE907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0959AE02C0F0935870D2138 /* Pods-ConsumoCredito-ConsumoCreditoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9M4DPRUS2;
+				INFOPLIST_FILE = ConsumoCreditoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = buzzo.ConsumoCreditoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConsumoCredito;
+			};
+			name = Debug;
+		};
+		6E180893252222AE00EAE907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAE00CEBF9E4E5DE683C399 /* Pods-ConsumoCredito-ConsumoCreditoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9M4DPRUS2;
+				INFOPLIST_FILE = ConsumoCreditoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = buzzo.ConsumoCreditoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConsumoCredito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E18085C252222AB00EAE907 /* Build configuration list for PBXProject "ConsumoCredito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E180889252222AE00EAE907 /* Debug */,
+				6E18088A252222AE00EAE907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E18088B252222AE00EAE907 /* Build configuration list for PBXNativeTarget "ConsumoCredito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E18088C252222AE00EAE907 /* Debug */,
+				6E18088D252222AE00EAE907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E18088E252222AE00EAE907 /* Build configuration list for PBXNativeTarget "ConsumoCreditoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E18088F252222AE00EAE907 /* Debug */,
+				6E180890252222AE00EAE907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E180891252222AE00EAE907 /* Build configuration list for PBXNativeTarget "ConsumoCreditoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E180892252222AE00EAE907 /* Debug */,
+				6E180893252222AE00EAE907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E180859252222AB00EAE907 /* Project object */;
+}

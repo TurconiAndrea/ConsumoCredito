@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.2.2)
+  - DTTextField (0.4.0)
+  - FittedSheets (1.4.6)
+  - NVActivityIndicatorView (5.0.1):
+    - NVActivityIndicatorView/Base (= 5.0.1)
+  - NVActivityIndicatorView/Base (5.0.1)
+  - RNCryptor (5.1.0)
+  - UICircularProgressRing (7.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - DTTextField
+  - FittedSheets
+  - NVActivityIndicatorView
+  - RNCryptor (~> 5.0)
+  - UICircularProgressRing
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DTTextField
+    - FittedSheets
+    - NVActivityIndicatorView
+    - RNCryptor
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  DTTextField: 4b9bab01faec50a98d42d24ba39ed122461f866f
+  FittedSheets: 7f37fee2567d15dcde391f31eccbffb660ddebf0
+  NVActivityIndicatorView: 738e843cb8924e9e4fc3e559d0728031624bf860
+  RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  UICircularProgressRing: 738b48db0ec1fbbd8482d727979392bb8c272e8d
+
+PODFILE CHECKSUM: 2376dea67dfea963d1157543daec796172faee4f
+
+COCOAPODS: 1.9.3
