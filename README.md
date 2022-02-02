@@ -1,31 +1,31 @@
 # ConsumoCredito
 
-App Android e IOS **non ufficiale** per il controllo dei consumi di Iliad.
-L'applicazione permette il login al sito ufficiale di Iliad con i dati dell'utente, utilizzando delle API create ad hoc che ne permettono la connessione.
+**Unofficial** Android and IOS app for Iliad's consumption control.
+The application allows you to log in to the Iliad official website with user data, using specially created APIs that allow the connection.
 
 ![Wallpaper](/images/wallpaper.png)
 
-### Funzioni implementate
-L'app permette la connessione al sito di Iliad attraverso API create ad hoc. Le seguenti permettono, al momento, la visualizzazione di tali dati: 
+### What can the app do?
+The app allows connection to the Iliad website through specially created APIs. ConsumoCredito allows, at the moment, the visualization of the following data:
 
-* Consumo totale dei dati (GB)
-* Credito residuo rimanente
-* Data del prossimo rinnovo
-* Minuti di chiamate effettuati
-* SMS inviati
-* MMS inviati
-* Visualizzazione FAQ di Iliad
+* Total data consumption (GB)
+* Remaining residual credit
+* Date of next renewal
+* Minutes of calls made
+* SMS sent
+* MMS sent
+* Iliad FAQ
 
-### Sviluppo
-L'applicazione Android è sviluppata utilizzando: 
+### Development
+The Android application is developed using:
 * Kotlin
 
-L'applicazione IOS è sviluppata utilizzando: 
+The IOS application is developed using:
 * Swift
 
-Le API sono state sviluppate utilizzando: 
+The APIs are developed using:
 * Python Flask
 
 ### Disclaimer
-L'applicazione è stata sviluppati per motivi di studio. 
-La società Iliad Italia S.p.A. non è responsabile dell'utilizzo di questa applicazione. 
+The application was developed for study purposes.
+Iliad Italia S.p.A. is not responsible for the use of this application.
