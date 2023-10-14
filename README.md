@@ -1,5 +1,7 @@
 # ConsumoCredito
 
+> Update: Backend Server is down due to new pricing policy of heroku
+
 **Unofficial** Android and IOS app for Iliad's consumption control.
 The application allows you to log in to the Iliad official website with user data, using specially created APIs that allow the connection.
 
